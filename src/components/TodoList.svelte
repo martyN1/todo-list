@@ -1,7 +1,7 @@
 <script>
-	// @ts-nocheck
-	import Todo from './Todo.svelte'
-	import {doneTodos, mode, sortedTodos} from '../store'
+    // @ts-nocheck
+    import Todo from './Todo.svelte'
+    import {doneTodos, mode, sortedTodos} from '../store'
 </script>
 
 <div>
@@ -26,7 +26,7 @@
         overflow-y: scroll;
     }
 
-    @media only screen and (hover: none) and (pointer: coarse) {
+    @media (pointer: coarse) {
         div {
             flex-direction: column-reverse;
         }

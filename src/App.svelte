@@ -81,7 +81,7 @@
         text-align: center;
     }
 
-    @media only screen and (hover: none) and (pointer: coarse) {
+    @media (pointer: coarse) {
         .wrapper {
             border-radius: 0;
             margin: 0 auto;
