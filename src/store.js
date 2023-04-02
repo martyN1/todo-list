@@ -17,4 +17,4 @@ export const doneTodos = derived(todos, ($todos) =>
 )
 
 export const newTodoText = writable('')
-export const currentEmoji = writable('👍')
+export const currentEmoji = writable('✅')
