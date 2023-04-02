@@ -1,0 +1,57 @@
+:root {
+    --yellow: #f4d530;
+    --red: #bf5846;
+    --green: #00be9e;
+    --black: #4c4637;
+    --white: #fdf9f0;
+    --light-gray: #d2cdc3;
+    --gray: #aea99e;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+input:focus {
+    outline: 0;
+}
+
+button:hover,
+button:focus {
+    background: #0053ba;
+}
+
+button:focus {
+    outline: none;
+    outline-offset: -4px;
+}
+
+button:active {
+    transform: scale(0.99);
+}
+
+body {
+    background-color: var(--gray);
+}
+
+/* Scrollbar */
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: var(--yellow);
+    border: 1px solid var(--black);
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.actionButton {
+    width: 48px;
+    height: 48px;
+    border: 2px solid var(--black);
+    border-radius: 999px;
+    cursor: pointer;
+}
