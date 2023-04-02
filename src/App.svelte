@@ -28,7 +28,7 @@
     .wrapper {
         max-width: 600px;
         margin: 40px auto 16px;
-        height: calc(100vh - 92px);
+        height: calc(100% - 92px);
         border-radius: 32px;
         background-color: var(--light-gray);
         padding: 12px;
@@ -85,7 +85,7 @@
         .wrapper {
             border-radius: 0;
             margin: 0 auto;
-            height: 100vh;
+            height: 100%;
         }
 
         section {
