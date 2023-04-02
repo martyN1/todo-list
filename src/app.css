@@ -53,8 +53,8 @@ body {
 }
 
 .actionButton {
-    width: 48px;
-    height: 48px;
+    min-width: 48px;
+    min-height: 48px;
     border: 2px solid var(--black);
     border-radius: 999px;
     cursor: pointer;
