@@ -15,9 +15,8 @@
     div {
         flex-grow: 1;
         display: flex;
-        flex-direction: row;
-        justify-content: flex-end;
-        gap: 8px;
+        flex-direction: row-reverse;
+        justify-content: space-around;
         align-items: center;
     }
 </style>
