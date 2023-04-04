@@ -29,6 +29,17 @@ export function setTodoAsDone(uuid) {
     )
 }
 
+export function editTodo(uuid, newText) {
+    todos.update((todos) =>
+        todos.map((todo) => {
+            if (todo.uuid === uuid) {
+                return {...todo, text: newText}
+            }
+            return todo
+        })
+    )
+}
+
 export function deleteTodo(uuid) {
     todos.update((todos) => todos.filter((todo) => todo.uuid !== uuid))
 }
