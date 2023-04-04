@@ -21,3 +21,6 @@ export const doneTodos = derived(todos, ($todos) =>
 )
 
 export const newTodoText = writable('')
+
+export const language = writable(window.navigator.language)
+
